@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;900&display=swap");  
+/* root */
+:root{
+    --iriscolor: #4D5AE5 ;
+    --navyblue: #2e2f42 ; 
+    --navblack: black ;
+    --navocean: #404BBF ; 
+    --navslate: #434455 ; 
+    --navwhite: white ; 
+
+}
+
+.link-logo
+{
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 1.5;
+    font-family: 'raleway', sams-serif;
+}
+
+.web{
+    color: var(--iriscolor);
+}
+
+.Studio{
+    color: var(--navyblue);
+}
+
+.studio-logo{
+    color: var(--navwhite);
+}
+
+.navbar .pages {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--navblack);
+    letter-spacing: 0.32px;
+}
+
+.lists {
+    list-style-type: none;
+}
+
+.navbar .pages:hover,
+.navbar .pages:focus{
+    color: var(--navocean);
+}
+
+.navbar1 .contacts{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--navslate);
+    letter-spacing: 0.32px;
+}
+
+.navbar1 .contacts:hover,
+.navbar1 .contacts:focus{
+    color: var(--navocean);
+}
+
+.bg-section1 {
+    background-color: var(--navyblue);
+}
+
+.section1{
+    text-align: center;
+    font-size: 45px;
+    line-height: 1.5;
+    font-weight: 800;
+    letter-spacing: 1.12px;
+    color: var(--navwhite);
+    
+}
+
+.btn{
+    cursor: pointer;
+    border-color: transparent;
+    letter-spacing: 0.05em;
+    font-family: interit;
+    
+}
+
+.btn.bg-button{
+    background-color: var(--navocean);
+    color: var(--navwhite);
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+
+.btn.bg-button:hover,
+.btn.bg-button:focus{
+    background-color: var(--navslate) ;
+}
+
+.desclist.titlelist{
+    font-weight: 500px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.sectiontitle{
+    text-align: center;
+    color: var(--navyblue);
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.teamname{
+    color: var(--navyblue);
+    font-weight: 900px;
+}
+
+.position{
+    color: var(--navslate);
+    font-weight: 900px;
+}
+
+.footerbg{
+    background-color: var(--navyblue);
+}
+
