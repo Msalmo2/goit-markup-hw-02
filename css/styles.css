@@ -7,6 +7,7 @@
     --navocean: #404BBF ; 
     --navslate: #434455 ; 
     --navwhite: white ; 
+    --navcloud: #F4F4FD ;
 
 }
 
@@ -36,6 +37,7 @@
     line-height: 24px;
     color: var(--navblack);
     letter-spacing: 0.32px;
+    font-family: 'roboto', sams-serif;
 }
 
 .lists {
@@ -53,6 +55,7 @@
     line-height: 24px;
     color: var(--navslate);
     letter-spacing: 0.32px;
+    font-family: 'roboto', sams-serif;
 }
 
 .navbar1 .contacts:hover,
@@ -71,6 +74,7 @@
     font-weight: 800;
     letter-spacing: 1.12px;
     color: var(--navwhite);
+    font-family: 'roboto', sams-serif;
     
 }
 
@@ -79,6 +83,7 @@
     border-color: transparent;
     letter-spacing: 0.05em;
     font-family: interit;
+    font-family: 'roboto', sams-serif;
     
 }
 
@@ -96,9 +101,14 @@
 }
 
 .desclist.titlelist{
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.5;
+}
+
+.criteria{
+    font-family: 'roboto', sams-serif;
+    color: var(--navyblue);
 }
 
 .sectiontitle{
@@ -107,16 +117,18 @@
     font-size: 36px;
     font-weight: 900;
     line-height: 1.5;
+    font-family: 'roboto', sams-serif;
 }
 
-.teamname{
+.team{
     color: var(--navyblue);
-    font-weight: 900px;
+    font-weight: 900;
+    font-family: 'roboto', sams-serif;
 }
 
 .position{
     color: var(--navslate);
-    font-weight: 900px;
+    font-weight: 100;
 }
 
 .footerbg{
@@ -129,5 +141,27 @@
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
+    font-family: 'roboto', sams-serif;
 }
 
+.btnl{
+    border-color: transparent;
+}
+
+.btnl.portfolio{
+    background-color: var(--navcloud);
+    color: var(--iriscolor);
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+
+.btnl.portfolio:hover,
+.btnl.portfolio:focus{
+    background-color: var(--navslate) ;
+}
+
+.mtitle{
+    font-family: 'roboto', sams-serif;
+    color: var(--navyblue);
+}
