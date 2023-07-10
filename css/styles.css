@@ -78,7 +78,7 @@
     
 }
 
-.filters{
+.btn{
     cursor: pointer;
     border-color: transparent;
     letter-spacing: 0.05em;
@@ -87,7 +87,7 @@
     
 }
 
-.filters.bg-button{
+.btn.bg-button{
     background-color: var(--navocean);
     color: var(--navwhite);
     font-weight: 800;
@@ -95,8 +95,8 @@
     letter-spacing: 0.05em;
 }
 
-.filters.bg-button:hover,
-.filters.bg-button:focus{
+.btn.bg-button:hover,
+.btn.bg-button:focus{
     background-color: var(--navslate) ;
 }
 
