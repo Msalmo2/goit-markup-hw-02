@@ -11,7 +11,7 @@
 
 }
 
-.link-logo
+.logo-link
 {
     text-decoration: none;
     font-size: 30px;
@@ -19,19 +19,19 @@
     font-family: 'raleway', sams-serif;
 }
 
-.web{
+.logo{
     color: var(--iriscolor);
 }
 
-.Studio{
+.studio{
     color: var(--navyblue);
 }
 
-.studio-logo{
+.studio-footer{
     color: var(--navwhite);
 }
 
-.navbar .pages {
+.nav-menu .page {
     text-decoration: none;
     font-size: 16px;
     line-height: 24px;
@@ -40,16 +40,16 @@
     font-family: 'roboto', sams-serif;
 }
 
-.lists {
+.list {
     list-style-type: none;
 }
 
-.navbar .pages:hover,
-.navbar .pages:focus{
+.nav-menu .page:hover,
+.nav-menu .page:focus{
     color: var(--navocean);
 }
 
-.navbar1 .contacts{
+.contacts-menu .item{
     text-decoration: none;
     font-size: 16px;
     line-height: 24px;
@@ -58,16 +58,16 @@
     font-family: 'roboto', sams-serif;
 }
 
-.navbar1 .contacts:hover,
-.navbar1 .contacts:focus{
+.contacts-menu .item:hover,
+.contacts-menu .item:focus{
     color: var(--navocean);
 }
 
-.bg-section1 {
+.bg-hero {
     background-color: var(--navyblue);
 }
 
-.section1{
+.hero{
     text-align: center;
     font-size: 45px;
     line-height: 1.5;
@@ -78,7 +78,7 @@
     
 }
 
-.btn{
+.filters{
     cursor: pointer;
     border-color: transparent;
     letter-spacing: 0.05em;
@@ -87,7 +87,7 @@
     
 }
 
-.btn.bg-button{
+.filters.bg-button{
     background-color: var(--navocean);
     color: var(--navwhite);
     font-weight: 800;
@@ -95,23 +95,23 @@
     letter-spacing: 0.05em;
 }
 
-.btn.bg-button:hover,
-.btn.bg-button:focus{
+.filters.bg-button:hover,
+.filters.bg-button:focus{
     background-color: var(--navslate) ;
 }
 
-.desclist.titlelist{
+.description.title{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.5;
 }
 
-.criteria{
+.benefits{
     font-family: 'roboto', sams-serif;
     color: var(--navyblue);
 }
 
-.sectiontitle{
+.section-title{
     text-align: center;
     color: var(--navyblue);
     font-size: 36px;
@@ -131,10 +131,10 @@
     font-weight: 100;
 }
 
-.footerbg{
+.bg-footer{
     background-color: var(--navyblue);
 }
-.lastpart{
+.page-footer{
     color: var(--navwhite);
     font-size: 16px;
     font-style: normal;
@@ -144,11 +144,11 @@
     font-family: 'roboto', sams-serif;
 }
 
-.btnl{
+.button{
     border-color: transparent;
 }
 
-.btnl.portfolio{
+.button.filter{
     background-color: var(--navcloud);
     color: var(--iriscolor);
     font-weight: 800;
@@ -156,12 +156,12 @@
     letter-spacing: 0.05em;
 }
 
-.btnl.portfolio:hover,
-.btnl.portfolio:focus{
+.button.filter:hover,
+.button.filter:focus{
     background-color: var(--navslate) ;
 }
 
-.mtitle{
+.projects{
     font-family: 'roboto', sams-serif;
     color: var(--navyblue);
 }
