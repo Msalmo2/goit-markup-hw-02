@@ -1,167 +1,214 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;900&display=swap");  
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;900&display=swap");
 /* root */
-:root{
-    --iriscolor: #4D5AE5 ;
-    --navyblue: #2e2f42 ; 
-    --navblack: black ;
-    --navocean: #404BBF ; 
-    --navslate: #434455 ; 
-    --navwhite: white ; 
-    --navcloud: #F4F4FD ;
-
+:root {
+  --iriscolor: #4d5ae5;
+  --navyblue: #2e2f42;
+  --navblack: black;
+  --navocean: #404bbf;
+  --navslate: #434455;
+  --navwhite: white;
+  --navcloud: #f4f4fd;
 }
 
-.logo-link
-{
-    text-decoration: none;
-    font-size: 30px;
-    line-height: 1.5;
-    font-family: 'raleway', sams-serif;
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: var(--navslate);
 }
 
-.logo{
-    color: var(--iriscolor);
+.logo-link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  font-family: "Raleway", sans-serif;
 }
 
-.studio{
-    color: var(--navyblue);
+.logo {
+  color: var(--iriscolor);
 }
 
-.studio-footer{
-    color: var(--navwhite);
+.studio {
+  color: var(--navyblue);
 }
 
+.page-footer.bg-footer.studio-footer {
+  color: var(--navcloud);
+}
+
+.footer-descrition {
+  color: var(--navcloud);
+}
 .nav-menu .page {
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--navblack);
-    letter-spacing: 0.32px;
-    font-family: 'roboto', sams-serif;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+  color: var(--navyblue);
+  letter-spacing: 0.02em;
 }
 
 .list {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .nav-menu .page:hover,
-.nav-menu .page:focus{
-    color: var(--navocean);
-}
-
-.contacts-menu .item{
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--navslate);
-    letter-spacing: 0.32px;
-    font-family: 'roboto', sams-serif;
-}
-
+.nav-menu .page:focus,
+.nav-menu .page.current,
 .contacts-menu .item:hover,
-.contacts-menu .item:focus{
-    color: var(--navocean);
+.contacts-menu .item:focus {
+  color: var(--iriscolor);
+}
+
+.hero-title {
+  font-size: 56px;
+  text-align: center;
+  line-height: 1.07;
+  letter-spacing: 0.04em;
+  color: var(--navwhite);
+}
+
+.bg-team {
+  background-color: var(--navcloud);
+}
+
+.contacts-menu .item {
+  text-decoration: none;
+  line-height: 1.14;
+  font-weight: 400;
+  color: var(--navslate);
+  letter-spacing: 0.02em;
 }
 
 .bg-hero {
-    background-color: var(--navyblue);
+  background-color: var(--navyblue);
 }
 
-.hero{
-    text-align: center;
-    font-size: 45px;
-    line-height: 1.5;
-    font-weight: 800;
-    letter-spacing: 1.12px;
-    color: var(--navwhite);
-    font-family: 'roboto', sams-serif;
-    
+.hero {
+  text-align: center;
+  font-size: 45px;
+  line-height: 1.5;
+  font-weight: 800;
+  letter-spacing: 1.12px;
+  color: var(--navwhite);
 }
 
-.btn{
-    cursor: pointer;
-    border-color: transparent;
-    letter-spacing: 0.05em;
-    font-family: interit;
-    font-family: 'roboto', sams-serif;
-    
+.button {
+  cursor: pointer;
+  border-color: transparent;
+  letter-spacing: 0.05em;
+  font-family: interit;
 }
 
-.btn.bg-button{
-    background-color: var(--navocean);
-    color: var(--navwhite);
-    font-weight: 800;
-    line-height: 1.5;
-    letter-spacing: 0.05em;
+.button.primary {
+  background-color: var(--iriscolor);
+  color: var(--navwhite);
+  font-weight: 800;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 
-.btn.bg-button:hover,
-.btn.bg-button:focus{
-    background-color: var(--navslate) ;
+.button.primary:hover,
+.button.primary:focus {
+  background-color: var(--navocean);
 }
 
-.description.title{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.5;
+.description.title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
-.benefits{
-    font-family: 'roboto', sams-serif;
-    color: var(--navyblue);
+.benefits {
+  color: var(--navyblue);
 }
 
-.section-title{
-    text-align: center;
-    color: var(--navyblue);
-    font-size: 36px;
-    font-weight: 900;
-    line-height: 1.5;
-    font-family: 'roboto', sams-serif;
+.benefits.title {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--navyblue);
 }
 
-.team{
-    color: var(--navyblue);
-    font-weight: 900;
-    font-family: 'roboto', sams-serif;
+.benefits.description {
+  color: var(--navslate);
+  line-height: 1.71;
+  font-size: 16px;
+  font-weight: 400;
+}
+.section-title {
+  text-align: center;
+  color: var(--navyblue);
+  font-size: 36px;
+  line-height: 1.17;
 }
 
-.position{
-    color: var(--navslate);
-    font-weight: 100;
+.team.name {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
 }
 
-.bg-footer{
-    background-color: var(--navyblue);
-}
-.page-footer{
-    color: var(--navwhite);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-    font-family: 'roboto', sams-serif;
+.team.position {
+  color: var(--navyblue);
+  font-weight: 400;
 }
 
-.button{
-    border-color: transparent;
+.position {
+  color: var(--navslate);
+  font-weight: 100;
 }
 
-.button.filter{
-    background-color: var(--navcloud);
-    color: var(--iriscolor);
-    font-weight: 800;
-    line-height: 1.5;
-    letter-spacing: 0.05em;
+.page-footer.bg-footer {
+  background-color: var(--navyblue);
+}
+.page-footer {
+  color: var(--navwhite);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.button {
+  border-color: transparent;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.button.filter {
+  background-color: var(--navcloud);
+  color: var(--iriscolor);
+  font-weight: 500;
+  line-height: 1.62;
 }
 
 .button.filter:hover,
-.button.filter:focus{
-    background-color: var(--navslate) ;
+.button.filter:focus,
+.button.filter.current {
+  background-color: var(--navocean);
+  color: var(--navcloud);
 }
 
-.projects{
-    font-family: 'roboto', sams-serif;
-    color: var(--navyblue);
+.project .name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: var(--navyblue);
+}
+
+.project .type {
+  color: var(--navslate);
+  font-weight: 400;
+  line-height: 1.87;
+}
+
+.project {
+  text-decoration: none;
+  color: var(--navyblue);
 }
